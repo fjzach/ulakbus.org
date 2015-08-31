@@ -208,8 +208,6 @@ pip yükseltin(güncelleyin) ve ipython kurulumunu gerçekleştirin.
     pip install --upgrade pip
     pip install ipython
 
-
-
 Pyoko'yu https://github.com/zetaops/pyoko.git adresinden çekiniz ve gereksinimleri kurunuz.
 
 ::
@@ -219,7 +217,6 @@ Pyoko'yu https://github.com/zetaops/pyoko.git adresinden çekiniz ve gereksiniml
     pip install six
 
     pip install git+https://github.com/zetaops/pyoko.git
-
 
 Environmet'a PYOKO_SETTINGS değişkeni ekleyiniz(*root* kullanıcısı iken)
 
@@ -243,21 +240,17 @@ Ulakbus'u https://github.com/zetaops/pyoko.git adresinden çekiniz ve gereksinim
 
     git clone https://github.com/zetaops/ulakbus.git
 
-
-
 Ulakbus-ui'yi https://github.com/zetaops/pyoko.git adresinden çekiniz.
 
 ::
 
     git clone https://github.com/zetaops/ulakbus-ui.git
 
-
 Ulakbus'u PYTHONPATH'a ekleyiniz.
 
 ::
 
     echo '/app/ulakbus' >> /app/env/lib/python2.7/site-packages/ulakbus.pth
-
 
 Google kütüphanesinin çalışması için "__init__.py" adında dosya oluşturunuz(*ulakbus* kullanıcısı iken)
 
